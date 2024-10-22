@@ -11,17 +11,8 @@ int main()
     cout << "Enter a Number: ";
     cin >> num;
 
-    if (isPrime(num))
-    {
-        cout <<num<< " is a prime Number." <<endl;
-    } 
-    else 
-    {
-        cout <<num << " is not a Prime Number." <<endl;
-    }
-
-    return 0;
-}
+     cout<<isPrime(num);
+} 
 
 bool isPrime(int num) 
 {
